@@ -969,3 +969,19 @@ a {
 .delivery-total-cost-price {
     color: #5C4A4D;
 }
+
+.delivery-total-item {
+    margin-bottom: 0;
+    border-radius: 12px 12px 0 0;
+}
+
+.delivery-cost-item-button {
+    border: none;
+    background-color: #92525D;
+    width: 100%;
+    padding: 16px 32px;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FCFBF9;
+    border-radius: 0 0 12px 12px;
+}
