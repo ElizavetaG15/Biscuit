@@ -739,3 +739,233 @@ a {
     line-height: 20px;
     margin-bottom: 40px;
 }
+
+.order {
+    max-width: 944px;
+    margin: 0 auto;
+    padding-bottom: 149px;
+}
+
+.order__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__title {
+    text-align: center;
+    font-size: 65px;
+    line-height: 68px;
+    font-family: 'Neucha';
+    color: #5C4A4D;
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.order-item {
+    display: flex;
+    padding-top: 20px;
+    border-top: 1px solid rgba(171, 168, 159, 0.18);
+    margin-bottom: 20px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item-bg {
+    max-width: 80px;
+    width: 80px;
+    max-height: 80px;
+    height: 80px;
+    /* background-image: url(../images/order-item-1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.order-delete {
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/close-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.order-data-name {
+    font-size: 19px;
+    line-height: 24px;
+    color: #5C4A4D;
+    margin-bottom: 8px;
+    max-width: 270px;
+    width: 100%;
+}
+
+.order-data-item {
+    color: #AEA4A2;
+}
+
+.order-data-add {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.order-data-count {
+    display: flex;
+    background-color: #FCFBF9;
+    padding: 10px 12px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.order-count {
+    margin: 0 10px;
+}
+
+.order-del,
+.order-add {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.order-del {
+    background-image: url(../images/order-minus-icon.svg);
+}
+
+.order-add {
+    background-image: url(../images/order-plus-icon.svg);
+}
+
+.order-data-price {
+    font-size: 19px;
+    line-height: 24px;
+    color: #716063;
+}
+
+.order__details {
+    padding-top: 24px;
+    border-top: 1px solid rgba(171, 168, 159, 0.18);
+}
+
+.contact-data {
+    padding-bottom: 12px;
+}
+
+.contact-data-title,
+.contact-delivery-title,
+.delivery-payment-method-title {
+    font-size: 23px;
+    line-height: 28px;
+    color: #5C4A4D;
+    margin-bottom: 20px;
+}
+
+.contact-data-item {
+    max-width: 452px;
+    width: 100%;
+    background-color: #FCFBF9;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+}
+
+.data-title {
+    color: #AEA4A2;
+    margin-bottom: 0;
+}
+
+.data-input {
+    width: 100%;
+    padding-right: 10px;
+    color: #5C4A4D;
+    font-size: 19px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.city-link,
+.city-list-item {
+    font-size: 19px;
+    line-height: 24px;
+    color: #5C4A4D;
+}
+
+.delivery-item-tite {
+    color: #5C4A4D;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.delivery-item-cost-price {
+    font-size: 19px;
+    line-height: 24px;
+    color: #AEA4A2;
+}
+
+.delivery-item-input {
+    display: flex;
+    align-items: flex-start;
+}
+
+.delivery-item-inner-input {
+    margin-right: 18px;
+}
+
+.delivery-data-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-data-day,
+.delivery-data-time {
+    max-width: 216px;
+}
+
+.delivery-products-cost-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-products {
+    font-size: 19px;
+    line-height: 24px;
+    color: #716063;
+    margin-bottom: 4px;
+}
+
+.delivery-products-price {
+    font-size: 19px;
+    line-height: 24px;
+    color: #AEA4A2;
+}
+
+.delivery-products-costs {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(171, 168, 159, 0.18);
+}
+
+.delivery-total-cost-item {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #5C4A4D;
+}
+
+.delivery-total-cost,
+.delivery-total-cost-price {
+    color: #5C4A4D;
+}
